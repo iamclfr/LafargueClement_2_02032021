@@ -7,21 +7,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/favicon.ico" />
     <title>Réservia - Le planification de vacances</title>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/global.css">
+
     <script src="https://kit.fontawesome.com/4a39e2e0e8.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <a href="#"><img src="img/Reservia@3x.png" alt="Logo Réservia" class="logo"></a>
-        <ul class="menu-nav">
-            <li><a href="#" class="active">hébergement</a></li>
-            <li><a href="#">activités</a></li>
-            <li><a href="#" class="login">s'inscrire</a></li>
-        </ul>
-    </header>
-    <footer>
+    <header class="container-nav">
+        <div class="logo">
+            <a href="#"><img src="img/logo.svg" width="200px" alt="logo réservia"></a>
+        </div>
+        <div class="navbar">
+            <!-- Responsive icon Open/Close menu -->
+            <div class="mobile-icon">
+                <i class="fas fa-bars"></i>
+            </div>
 
+            <!-- Liens du menu -->
+            <ul id="menu-link">
+                <li><a href="#" class="active">Hébergement</a></li>
+                <li><a href="#">Activités</a></li>
+                <li><a href="#" class="register">S'inscrire</a></li>
+            </ul>
+        </div>
+    </header>
+    <footer class="footer">
+        <div class="row footer-container">
+            <!-- LOGO FOOTER -->
+            <div class="column">
+                <a href="#"><img src="img/logo.svg" width="200px" alt="logo réservia"></a>
+            </div>
+            <!-- COLONNE 1 -->
+            <div class="column">
+                <a href="#" class="footer-title"><h3>à propos</h3></a>
+                <a href="#"><p>Fonctionnement du site</p></a>
+                <a href="#"><p>Conditions générales de vente</p></a>
+                <a href="#"><p>Données et confidentialité</p></a>
+            </div>
+            <!-- COLONNE 2 -->
+            <div class="column">
+                <a href="#" class="footer-title"><h3>nos hébergements</h3></a>
+                <a href="#"><p>Charte qualité</p></a>
+                <a href="#"><p>Soumettre votre hôtel</p></a>
+            </div>
+            <!-- COLONNE 3 -->
+            <div class="column">
+                <a href="#" class="footer-title"><h3>assistance</h3></a>
+                <a href="#"><p>Centre d'aide</p></a>
+                <a href="#"><p>Nous contacter</p></a>
+            </div>
+          </div>
     </footer>
 </body>
 </html>
