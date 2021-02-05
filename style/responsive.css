@@ -49,3 +49,32 @@
     }
 } */
 
+@media screen and (min-width: 600px) {
+	.header-nav {
+		grid-template-columns: auto 1fr auto auto;
+		grid-template-areas: "logo . navbar register";
+	}
+}
+
+@media screen and (max-width: 620px) {
+	.header-nav {
+		grid-template-columns: auto 1fr auto;
+		grid-template-areas: "logo . register" "navbar navbar navbar";
+	}
+
+	.nav-link {
+		border-top: none;
+		border-bottom: 5px solid transparent;
+		width: 50%;
+	}
+
+	.nav-link:hover {
+		border-bottom: 5px solid var(--primary);
+		border-top: none;
+	}
+
+	.active {
+		border-bottom: 5px solid var(--primary);
+	}
+}
+
