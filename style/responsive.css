@@ -1,6 +1,6 @@
-@media only screen and (max-width: 650px) {
+/* @media only screen and (max-width: 650px) {
     
-    /* HEADER */
+    /* HEADER
 
     .container-nav {
 		-webkit-box-pack: justify;
@@ -40,18 +40,12 @@
 		height: auto;
 		line-height: normal;
 		color: #555555;
-	}
-	.container-nav .navbar .mobile-icon {
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		margin-top: 30%;
-		color: var(--primary);
-    }
+	} */
     
     /* FOOTER */
 
-    .footer-container {
+    /* .footer-container {
         display: block;
     }
-}
+} */
+
