@@ -16,11 +16,10 @@
     text-decoration: none;
 }
 
-.column p:hover, h3:hover {
+.column p:hover {
     color: var(--primary);
 }
 
-.footer-title h3 {
-    text-transform: capitalize;
+.footer-title {
     font-weight: 800;
 }
