@@ -1,5 +1,6 @@
 /* Appel des fichiers .CSS */
 @import url("header.css");
+@import url("main.css");
 @import url("footer.css");
 @import url("responsive.css");
 
@@ -9,7 +10,7 @@
 :root {
     --primary: #0065FC;
     --secondary: #DEEBFF;
-    --footer: #f2f2f2;
+    --inactive: #f2f2f2;
     --background: #fff;
 }
 

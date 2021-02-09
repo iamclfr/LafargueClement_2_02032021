@@ -1,0 +1,44 @@
+main {
+    max-width: 1800px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+.research-title {
+    margin-bottom: 0;
+}
+
+.research-subtitle {
+    margin-top: 0.5em;
+}
+
+.research-form {
+    display: flex;
+}
+
+.research-icon {
+    background-color: var(--inactive);
+    border-radius: 10px 0 0 10px;
+    /* height: 3em; */
+    width: 3em;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.research-input {
+    height: 3em;
+    border: 2px solid var(--inactive);
+    border-right: transparent;
+    border-left: transparent;
+}
+
+.research-button {
+    background-color: var(--primary);
+    border: none;
+    height: 3em;
+    border-radius: 0 10px 10px 0;
+    color: #fff;
+    font-family: 'Raleway';
+    font-weight: 800;
+}
