@@ -14,6 +14,10 @@
 		grid-template-columns: auto 1fr auto auto;
 		grid-template-areas: "logo . navbar register";
 	}
+
+	.fa-search:before {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 620px) {
@@ -22,6 +26,15 @@
 	.header-nav {
 		grid-template-columns: auto 1fr auto;
 		grid-template-areas: "logo . register" "navbar navbar navbar";
+	}
+
+	.research-button span {
+		display: none;
+	}
+
+	.research-button {
+		padding-left: 1.5em;
+		padding-right: 1.5em;
 	}
 
 	.nav-link {

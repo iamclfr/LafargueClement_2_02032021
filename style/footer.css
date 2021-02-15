@@ -1,13 +1,16 @@
-.footer-container {
+.footer {
     background-color: var(--inactive);
+}
+.footer-container {
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 1rem;
+    margin-left: 15em;
 }
   
 .column {
-    padding: 1rem;
+    padding: 1em;
 }
 
 .column a {

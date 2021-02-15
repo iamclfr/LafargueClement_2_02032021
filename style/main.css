@@ -1,11 +1,14 @@
 main {
-    max-width: 1800px;
+    max-width: 1500px;
     margin: auto;
     padding: 0 2rem;
 }
 
+/* Titre + Recherche */
+
 .research-title {
     margin-bottom: 0;
+    font-size: 2em;
 }
 
 .research-subtitle {
@@ -18,27 +21,96 @@ main {
 
 .research-icon {
     background-color: var(--inactive);
-    border-radius: 10px 0 0 10px;
-    /* height: 3em; */
-    width: 3em;
+    border-radius: 15px 0 0 15px;
+    width: 3.5em;
+    height: 100%;
     display: flex !important;
     align-items: center;
     justify-content: center;
 }
 
 .research-input {
-    height: 3em;
-    border: 2px solid var(--inactive);
+    border: 1px solid var(--inactive);
     border-right: transparent;
     border-left: transparent;
+    width: 14rem;
+    font-size: 1em;
+    font-family: 'Raleway';
+    font-weight: 600;
+    padding-left: 10px;
+}
+.research-input:hover {
+    border: 3px solid var(--inactive);
+    border-right: transparent;
+    border-left: transparent;
+}
+
+.research-input:focus {
+    outline: none !important;
+    border: 2px solid var(--primary);
 }
 
 .research-button {
     background-color: var(--primary);
     border: none;
     height: 3em;
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 15px 15px 0;
     color: #fff;
     font-family: 'Raleway';
     font-weight: 800;
+    font-size: 1rem;
+    padding-left: 1em;
+    padding-right: 1em;
+    cursor: pointer;
+}
+
+/* Les filtres */
+
+.filter-container {
+    display: flex;
+    align-items: center;
+    padding-top: 2em;
+}
+
+.filter-title {
+    display: flex;
+    padding-right: 1em;
+}
+
+.filter-types {
+    display: flex;
+    margin-right: 2em;
+    border: 2px solid var(--inactive);
+    /* padding: 0.5em; */
+    border-radius: 2em;
+    align-items: center;
+    padding-right: 1em;
+    font-weight: 600;
+}
+
+.filter-types i {
+    background-color: var(--secondary);
+    min-width: 3.5em;
+    min-height: 3.5em;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: var(--primary);
+}
+
+.filter-types span{
+    margin-left: 1em;
+}
+
+.filter-resultat i {
+    min-width: 2em;
+    min-height: 2em;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: var(--primary);
+    border: 2px solid var(--inactive);
+    margin-right: 0.5em;
 }
