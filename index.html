@@ -1,86 +1,176 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta name="description" content="Reservia, une petite entreprise proposant un outil de planification de vacances.">
-    <meta name="keywords" content="réservia, entreprise, planification, vacances">
-    <meta name="author" content="LAFARGUE Clément">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/favicon.ico" />
-    <title>Réservia - Le planification de vacances</title>
-    <link rel="stylesheet" href="style/global.css">
-    <script src="https://kit.fontawesome.com/4a39e2e0e8.js" crossorigin="anonymous"></script>
-</head>
-<body>
-
-    <!-- HEADER NAVBAR -->
-    <header class="header-nav">
-        <a href="javascript:void(0)"><img src="img/logo.svg" alt="Logo Réservia" class="logo"></a>
-        <nav class="navbar">
+   <head>
+      <meta name="description" content="Reservia, une petite entreprise proposant un outil de planification de vacances.">
+      <meta name="keywords" content="réservia, entreprise, planification, vacances">
+      <meta name="author" content="LAFARGUE Clément">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" href="img/favicon.ico" />
+      <title>Réservia - Le planification de vacances</title>
+      <link rel="stylesheet" href="style/global.css">
+      <script src="https://kit.fontawesome.com/4a39e2e0e8.js" crossorigin="anonymous"></script>
+   </head>
+   <body>
+      <!-- HEADER NAVBAR -->
+      <header class="header-nav">
+         <a href="javascript:void(0)"><img src="img/logo.svg" alt="Logo Réservia" class="logo"></a>
+         <nav class="navbar">
             <a href="javascript:void(0)" class="nav-link active">Hébergements</a>
             <a href="javascript:void(0)" class="nav-link">Activités</a>
-        </nav>
-        <a href="javascript:void(0)" class="register">S'inscrire</a>
-    </header>
-
-    <main>
-        <section class="research-section">
+         </nav>
+         <a href="javascript:void(0)" class="register">S'inscrire</a>
+      </header>
+      <main>
+         <section class="research-section">
             <!-- Titre + Recherche -->
             <header class="research-header">
-                <h1 class="research-title">Trouvez votre hébergement pour des vacances de rêve</h1>
-                <p class="research-subtitle">En plein centre ville ou en pleine nature</p>
+               <h1 class="research-title">Trouvez votre hébergement pour des vacances de rêve</h1>
+               <p class="research-subtitle">En plein centre ville ou en pleine nature</p>
             </header>
             <!-- Formulaire de recherche -->
             <form action="get" class="research-form">
-                    <label for="research"><i class="fas fa-map-marker-alt research-icon"></i></label>
-                    <input type="text" name="research" id="research" placeholder="Marseille, France" class="research-input">
-                    <button class="research-button"><span>Rechercher</span><i class="fas fa-search"></i></button>
+               <label for="research"><i class="fas fa-map-marker-alt research-icon"></i></label>
+               <input type="text" name="research" id="research" placeholder="Marseille, France" class="research-input">
+               <button class="research-button"><span>Rechercher</span><i class="fas fa-search"></i></button>
             </form>
             <!-- Les filtres -->
             <div class="filter-container">
-                <h2 class="filter-title">Filtres</h2>
-                <div class="filter-types">
-                    <i class="fas fa-money-bill-wave"></i>
-                    <span>Économique</span>
-                </div>
-                <div class="filter-types">
-                    <i class="fas fa-child"></i>
-                    <span>Familial</span>
-                </div>
-                <div class="filter-types">
-                    <i class="fas fa-heart"></i>
-                    <span>Romantique</span>
-                </div>
-                <div class="filter-types">
-                    <i class="fas fa-dog"></i>
-                    <span>Animaux autorisés</span>
-                </div>
+               <h2 class="filter-title">Filtres</h2>
+               <div class="filter-types">
+                  <i class="fas fa-money-bill-wave"></i>
+                  <span>Économique</span>
+               </div>
+               <div class="filter-types">
+                  <i class="fas fa-child"></i>
+                  <span>Familial</span>
+               </div>
+               <div class="filter-types">
+                  <i class="fas fa-heart"></i>
+                  <span>Romantique</span>
+               </div>
+               <div class="filter-types">
+                  <i class="fas fa-dog"></i>
+                  <span>Animaux autorisés</span>
+               </div>
             </div>
             <p class="filter-resultat"><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
-        </section>
-    </main>
-<br>
-    <footer class="footer">
-        <div class="row footer-container">
+         </section>
+         <section class="lodging-section">
+             <div class="lodging-resum">
+                 <header class="lodging-header">
+                     <h2 class="lodging-title">Hébergement à Marseille</h2>
+                 </header>
+                 <div class="lodging-card">
+                     <img src="img/Reservia@3x.png" alt="Hébergement" class="lodging-card-img">
+                     <h3 class="lodging-card-title">Title</h3>
+                     <p class="lodging-card-desc">lorem ipsum dolor. <strong>53€</strong></p>
+                     <div class="lodging-card-rate">
+                         <i class="fas fa-star" data-active="true"></i>
+                         <i class="fas fa-star" data-active="true"></i>
+                         <i class="fas fa-star" data-active="true"></i>
+                         <i class="fas fa-star" data-active="true"></i>
+                         <i class="fas fa-star" data-active="true"></i>
+                     </div>
+                 </div>
+                 <div class="lodging-card">
+                     <img src="img/Reservia@3x.png" alt="Hébergement" class="lodging-card-img">
+                     <h3 class="lodging-card-title">Title</h3>
+                     <p class="lodging-card-desc">lorem ipsum dolor. <strong>53€</strong></p>
+                     <div class="lodging-card-rate">
+                         <i class="fas fa-star" data-active="true"></i>
+                         <i class="fas fa-star" data-active="true"></i>
+                         <i class="fas fa-star" data-active="true"></i>
+                         <i class="fas fa-star" data-active="true"></i>
+                         <i class="fas fa-star" data-active="true"></i>
+                     </div>
+                 </div>
+                 <div class="lodging-card">
+                     <img src="img/Reservia@3x.png" alt="Hébergement" class="lodging-card-img">
+                     <h3 class="lodging-card-title">Title</h3>
+                     <p class="lodging-card-desc">lorem ipsum dolor. <strong>53€</strong></p>
+                     <div class="lodging-card-rate">
+                         <i class="fas fa-star" data-active="true"></i>
+                         <i class="fas fa-star" data-active="true"></i>
+                         <i class="fas fa-star" data-active="true"></i>
+                         <i class="fas fa-star" data-active="true"></i>
+                         <i class="fas fa-star" data-active="true"></i>
+                     </div>
+                 </div>
+                 <div class="lodging-card">
+                     <img src="img/Reservia@3x.png" alt="Hébergement" class="lodging-card-img">
+                     <h3 class="lodging-card-title">Title</h3>
+                     <p class="lodging-card-desc">lorem ipsum dolor. <strong>53€</strong></p>
+                     <div class="lodging-card-rate">
+                         <i class="fas fa-star" data-active="true"></i>
+                         <i class="fas fa-star" data-active="true"></i>
+                         <i class="fas fa-star" data-active="true"></i>
+                         <i class="fas fa-star" data-active="true"></i>
+                         <i class="fas fa-star" data-active="true"></i>
+                     </div>
+                 </div>
+                 <div class="lodging-card">
+                     <img src="img/Reservia@3x.png" alt="Hébergement" class="lodging-card-img">
+                     <h3 class="lodging-card-title">Title</h3>
+                     <p class="lodging-card-desc">lorem ipsum dolor. <strong>53€</strong></p>
+                     <div class="lodging-card-rate">
+                         <i class="fas fa-star" data-active="true"></i>
+                         <i class="fas fa-star" data-active="true"></i>
+                         <i class="fas fa-star" data-active="true"></i>
+                         <i class="fas fa-star" data-active="true"></i>
+                         <i class="fas fa-star" data-active="true"></i>
+                     </div>
+                 </div>
+                 <div class="lodging-card">
+                     <img src="img/Reservia@3x.png" alt="Hébergement" class="lodging-card-img">
+                     <h3 class="lodging-card-title">Title</h3>
+                     <p class="lodging-card-desc">lorem ipsum dolor. <strong>53€</strong></p>
+                     <div class="lodging-card-rate">
+                         <i class="fas fa-star" data-active="true"></i>
+                         <i class="fas fa-star" data-active="true"></i>
+                         <i class="fas fa-star" data-active="true"></i>
+                         <i class="fas fa-star" data-active="true"></i>
+                         <i class="fas fa-star" data-active="true"></i>
+                     </div>
+                 </div>
+             </div>
+         </section>
+      </main>
+      <footer class="footer">
+         <div class="row footer-container">
             <!-- COLONNE 1 -->
             <div class="column">
-                <h3 class="footer-title">À propos</h3>
-                <a href="#"><p>Fonctionnement du site</p></a>
-                <a href="#"><p>Conditions générales de vente</p></a>
-                <a href="#"><p>Données et confidentialité</p></a>
+               <h3 class="footer-title">À propos</h3>
+               <a href="#">
+                  <p>Fonctionnement du site</p>
+               </a>
+               <a href="#">
+                  <p>Conditions générales de vente</p>
+               </a>
+               <a href="#">
+                  <p>Données et confidentialité</p>
+               </a>
             </div>
             <!-- COLONNE 2 -->
             <div class="column">
-                <h3 class="footer-title">Nos hébergements</h3>
-                <a href="#"><p>Charte qualité</p></a>
-                <a href="#"><p>Soumettre votre hôtel</p></a>
+               <h3 class="footer-title">Nos hébergements</h3>
+               <a href="#">
+                  <p>Charte qualité</p>
+               </a>
+               <a href="#">
+                  <p>Soumettre votre hôtel</p>
+               </a>
             </div>
             <!-- COLONNE 3 -->
             <div class="column">
-                <h3 class="footer-title">Assistance</h3>
-                <a href="#"><p>Centre d'aide</p></a>
-                <a href="#"><p>Nous contacter</p></a>
+               <h3 class="footer-title">Assistance</h3>
+               <a href="#">
+                  <p>Centre d'aide</p>
+               </a>
+               <a href="#">
+                  <p>Nous contacter</p>
+               </a>
             </div>
-          </div>
-    </footer>
-</body>
+         </div>
+      </footer>
+   </body>
 </html>

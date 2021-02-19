@@ -4,7 +4,7 @@ main {
     padding: 0 2rem;
 }
 
-/* Titre + Recherche */
+/* Section Titre + Recherche + Filtres*/
 
 .research-title {
     margin-bottom: 0;
@@ -109,8 +109,10 @@ main {
     border-radius: 100%;
     justify-content: center;
     align-items: center;
-    display: flex;
+    display: inline-flex;
     color: var(--primary);
     border: 2px solid var(--inactive);
     margin-right: 0.5em;
 }
+
+/* Section Hébergement */
