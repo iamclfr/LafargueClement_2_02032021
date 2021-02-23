@@ -32,7 +32,6 @@
 
 .active {
     color: var(--primary);
-    border-top: 5px solid var(--primary);
 }
 
 .register {

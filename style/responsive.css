@@ -51,6 +51,20 @@
 	.active {
 		border-bottom: 5px solid var(--primary);
 	}
+
+	.filter-title {
+		width: 100%;
+	}
+
+	.filter-types {
+		margin: 0 0.5em 0.5em 0;
+	}
+
+	.filter-types i {
+		min-width: 2.5em;
+		min-height: 2.5em;
+		margin-right: 0;
+	}
 }
 
 @media screen and (max-width: 750px) {
