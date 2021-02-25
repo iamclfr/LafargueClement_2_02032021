@@ -6,6 +6,7 @@
     <meta name="keywords" content="réservia, entreprise, planification, vacances">
     <meta name="author" content="LAFARGUE Clément">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link rel="icon" href="img/logos/favicon.ico" />
     <title>Réservia - Le planification de vacances</title>
     <link rel="stylesheet" href="style/global.css">
@@ -32,7 +33,7 @@
             <p class="research-subtitle">En plein centre ville ou en pleine nature</p>
         </header>
         <!-- START SEARCH FORM-->
-        <form action="get" class="research-form">
+        <form action="#" class="research-form">
             <label for="research"><i class="fas fa-map-marker-alt research-icon"></i>
             </label>
             <input type="text" name="research" id="research" placeholder="Marseille, France" class="research-input">
@@ -65,7 +66,7 @@
     <!-- END SECTION RESEARCH -->
 
     <!-- START SECTION HÉBERGEMENT -->
-    <section class="lodging-section">
+    <section class="lodging-section" id="hebergement">
         <div class="lodging-resum">
             <h2 class="lodging-title">Hébergement à Marseille</h2>
             <div class="lodging-card">
@@ -143,6 +144,62 @@
         </div>
     </section>
     <!-- END SECTION HÉBERGEMENT -->
+
+    <!-- START SECTION POPULAIRE -->
+    <section class="pop-section">
+        <div class="pop-container">
+            <h2 class="pop-title">Les plus populaires <i class="fas fa-chart-line" title="Voir plus"></i></h2>
+            <div class="pop-card">
+                <div class="pop-img">
+                    <img src="img/hebergements/heb_1.jpg" alt="Hébergement" class="pop-card-img">
+                </div>
+                <div class="pop-text">
+                    <h3 class="pop-card-title">Hôtel Le soleil du matin</h3>
+                    <p class="pop-card-desc">Nuit à partir de <strong>128€</strong>
+                    </p>
+                    <div class="pop-card-rate"> <i class="fas fa-star" data-active="true"></i>
+                        <i class="fas fa-star" data-active="true"></i>
+                        <i class="fas fa-star" data-active="true"></i>
+                        <i class="fas fa-star" data-active="true"></i>
+                        <i class="fas fa-star" data-active="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="pop-card">
+                <div class="pop-img">
+                    <img src="img/hebergements/heb_1.jpg" alt="Hébergement" class="pop-card-img">
+                </div>
+                <div class="pop-text">
+                    <h3 class="pop-card-title">Hôtel Le soleil du matin</h3>
+                    <p class="pop-card-desc">Nuit à partir de <strong>128€</strong>
+                    </p>
+                    <div class="pop-card-rate"> <i class="fas fa-star" data-active="true"></i>
+                        <i class="fas fa-star" data-active="true"></i>
+                        <i class="fas fa-star" data-active="true"></i>
+                        <i class="fas fa-star" data-active="true"></i>
+                        <i class="fas fa-star" data-active="false"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="pop-card">
+                <div class="pop-img">
+                    <img src="img/hebergements/heb_1.jpg" alt="Hébergement" class="pop-card-img">
+                </div>
+                <div class="pop-text">
+                    <h3 class="pop-card-title">Hôtel Le soleil du matin</h3>
+                    <p class="pop-card-desc">Nuit à partir de <strong>128€</strong>
+                    </p>
+                    <div class="pop-card-rate"> <i class="fas fa-star" data-active="true"></i>
+                        <i class="fas fa-star" data-active="true"></i>
+                        <i class="fas fa-star" data-active="true"></i>
+                        <i class="fas fa-star" data-active="true"></i>
+                        <i class="fas fa-star" data-active="false"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END SECTION POPULAIRE -->
 </main>
 <footer class="footer">
     <div class="row footer-container">
