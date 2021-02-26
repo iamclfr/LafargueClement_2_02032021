@@ -3,7 +3,17 @@ main {
     padding: 0 2rem;
     margin: auto;
 }
+.link {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    transition: color .2s ease-in-out;
+    margin-bottom: 1em;
+}
 
+.link:hover {
+    color: var(--primary);
+}
 /* Section Titre + Recherche + Filtres*/
 
 .research-title {
@@ -47,7 +57,7 @@ main {
 
 .research-input:focus {
     outline: none !important;
-    border: 2px solid var(--primary);
+    border: 3px solid var(--inactive);
 }
 
 .research-button {
@@ -265,4 +275,10 @@ i[data-active=true] {
 .pop-card-rate {
     margin: 3em 0 0.2em 0.5em;
     color: var(--inactive);
+}
+
+/* Section Activity */
+
+.activity-section {
+    clear: both;
 }
