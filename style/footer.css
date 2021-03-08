@@ -1,28 +1,27 @@
 .footer {
     background-color: var(--inactive);
+    width: 100%;
     clear: both;
 }
+
 .footer-container {
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 1rem;
-    margin-left: 15em;
-}
-  
-.column {
-    padding: 1em;
+    display: flex;
+    max-width: 100%;
+    width: 1500px;
+    margin: auto;
+    padding: 0 2rem;
+    box-sizing: border-box;
 }
 
-.column a {
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 2em 2em;
+    line-height: 2em;
+}
+
+.footer-column a {
     color: #000;
     text-decoration: none;
-}
-
-.column p:hover {
-    color: var(--primary);
-}
-
-.footer-title {
-    font-weight: 800;
 }

@@ -85,6 +85,29 @@
 		margin-bottom: 2em !important;
 		height: 40em;
 		padding: 0 1em;
+		height: 39.33em !important;
+	}
+
+	.activity-section {
+		height: 102em;
+	}
+
+	.activity-content {
+		display: block;
+	}
+
+	.activity-box {
+		width: 100%;
+		margin: 2em 0;
+	}
+
+	.activity-box:nth-of-type(1),
+	.activity-box:nth-of-type(2),
+	.activity-box:nth-of-type(3),
+	.activity-box:nth-of-type(4),
+	.activity-box:nth-of-type(5),
+	.activity-box:nth-of-type(6) {
+		height: 40%;
 	}
 	
 	/* FOOTER */
@@ -113,6 +136,7 @@
 		width: 100%;
 		max-width: 100%;
 		margin-bottom: 2em;
+		height: 36.33em;
 	}
 }
 
