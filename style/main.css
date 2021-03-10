@@ -190,17 +190,24 @@ main {
     margin: 0.4em 0 0 0.5em;
     color: var(--inactive);
 }
-i[data-active=false] {
+.lodging-card-rate[data-note="1"] i:nth-child(1),
+.lodging-card-rate[data-note="2"] i:nth-child(-n+2),
+.lodging-card-rate[data-note="3"] i:nth-child(-n+3),
+.lodging-card-rate[data-note="4"] i:nth-child(-n+4),
+.lodging-card-rate[data-note="5"] i:nth-child(-n+5) { color: var(--primary); }
+
+
+/*i[data-active=false] {
     transition: color .2s ease-in-out;
-}
+}*/
 
-i[data-active=false]:hover {
-    color: var(--primary);
-}
+/*i[data-active=false]:hover {*/
+/*    color: var(--primary);*/
+/*}*/
 
-i[data-active=true] {
-    color: var(--primary);
-}
+/*i[data-active=true] {*/
+/*    color: var(--primary);*/
+/*}*/
 
 /* Les plus populaires */
 
