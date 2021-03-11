@@ -9,7 +9,7 @@
     max-width: 100%;
     width: 1500px;
     margin: auto;
-    padding: 0 2rem;
+    padding: 0 2em;
 }
 
 .footer-column {
@@ -23,4 +23,18 @@
 .footer-column a {
     color: #000;
     text-decoration: none;
+    background: linear-gradient(
+            to top,
+            rgba(0, 101, 252, 0.8) 0%,
+            rgba(0, 101, 252, 0.8) 10%,
+            transparent 10.01%
+    )
+    no-repeat left bottom / 0 100%;
+    transition: background-size 0.5s;
+}
+
+.footer-column a:hover {
+    color: #000;
+    text-decoration: none;
+    background-size: 20% 100%;
 }

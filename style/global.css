@@ -5,11 +5,11 @@
 @import url("responsive.css");
 
 /* GOOGLE FONT */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800;900&display=swap");
 
 :root {
-    --primary: #0065FC;
-    --secondary: #DEEBFF;
+    --primary: #0065fc;
+    --secondary: #deebff;
     --inactive: #f2f2f2;
     --background: #fff;
 }
@@ -20,7 +20,7 @@
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     background-color: var(--background);
     margin: 0;
     padding: 0;
