@@ -16,7 +16,7 @@
 <!-- ABOUT THE PROJECT -->
 ## À PROPOS DU PROJET :
 
-[![Product Name Screen Shot][product-screenshot]](https://reservia.iamcl.fr/reservia.iamcl.fr.png)
+[![Product Name Screen Shot][product-screenshot]](https://reservia.iamcl.fr/img/reservia.iamcl.fr.png)
 
 
 ### LANGUAGES & LIBRAIRIES & FONTS
