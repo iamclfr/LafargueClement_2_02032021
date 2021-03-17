@@ -20,6 +20,11 @@
     <img src="img/readme/reservia_desktop.png" alt="Version Desktop">
   </p>
 
+### VERSION MOBILE :
+  <p align="center">
+    <img src="img/readme/reservia_mobile.jpg" alt="Version Desktop">
+  </p>
+
 
 ### LANGUAGES & LIBRAIRIES & FONTS
 * [HTML](https://github.com/iamclfr/LafargueClement_2_02032021/search?l=html)
