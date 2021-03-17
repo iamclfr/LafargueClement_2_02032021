@@ -56,6 +56,40 @@
 	}
 }
 
+@media screen and (max-width: 1500px) {
+	.lodging-section {
+		flex-direction: column-reverse;
+	}
+
+	.lodging-resum {
+		width: 100%;
+		justify-content: center;
+	}
+
+	.lodging-card {
+		max-width: 30%;
+		margin: 0.9em;
+	}
+
+	.pop-section {
+		width: 100%;
+		max-width: 100%;
+		margin-left: 0;
+		margin-bottom: 2em;
+	}
+}
+
+@media screen and (max-width: 880px) {
+	.lodging-card {
+		max-width: 45%;
+	}
+
+	.activity-box {
+		max-width: calc(30% - 3em);
+		margin: 0;
+	}
+}
+
 @media screen and (max-width: 750px) {
 	.lodging-resum {
 		background-color: #fff;
@@ -105,39 +139,5 @@
 	.footer-column {
 		width: 100%;
 		padding: 0.5em 1em;
-	}
-}
-
-@media screen and (max-width: 1500px) {
-	.lodging-section {
-		flex-direction: column-reverse;
-	}
-
-	.lodging-resum {
-		width: 100%;
-		justify-content: center;
-	}
-
-	.lodging-card {
-		max-width: 30%;
-		margin: 0.9em;
-	}
-
-	.pop-section {
-		width: 100%;
-		max-width: 100%;
-		margin-left: 0;
-		margin-bottom: 2em;
-	}
-}
-
-@media screen and (max-width: 880px) {
-	.lodging-card {
-		max-width: 45%;
-	}
-
-	.activity-box {
-		max-width: calc(30% - 3em);
-		margin: 0;
 	}
 }

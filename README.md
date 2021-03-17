@@ -15,8 +15,10 @@
 
 <!-- ABOUT THE PROJECT -->
 ## À PROPOS DU PROJET :
-
-[![Product Name Screen Shot][product-screenshot]](https://reservia.iamcl.fr/img/reservia.iamcl.fr.png)
+### VERSION DESKTOP :
+  <p align="center">
+    <img src="img/readme/reservia_desktop.png" alt="Version Desktop">
+  </p>
 
 
 ### LANGUAGES & LIBRAIRIES & FONTS
