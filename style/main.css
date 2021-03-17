@@ -66,6 +66,8 @@ main {
 .research-input:focus {
     outline: none !important;
     border: 3px solid var(--inactive);
+    border-right: transparent;
+    border-left: transparent;
 }
 
 .research-button {
