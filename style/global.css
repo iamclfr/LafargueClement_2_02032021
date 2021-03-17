@@ -21,6 +21,16 @@
     list-style: none;
 }
 
+::-moz-selection { /* Code for Firefox */
+    color: #fff;
+    background: var(--primary);
+}
+
+::selection {
+    color: #fff;
+    background: var(--primary);
+}
+
 body {
     font-family: "Raleway", sans-serif;
     background-color: var(--background);
