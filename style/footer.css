@@ -1,7 +1,6 @@
 .footer {
     background-color: var(--inactive);
     width: 100%;
-    clear: both;
 }
 
 .footer-container {
@@ -15,7 +14,7 @@
 .footer-column {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 100%;
     padding: 2em 2em;
     line-height: 2em;
 }
@@ -31,10 +30,11 @@
     )
     no-repeat left bottom / 0 100%;
     transition: background-size 0.5s;
+    width: fit-content;
 }
 
 .footer-column a:hover {
     color: #000;
     text-decoration: none;
-    background-size: 20% 100%;
+    background-size: 5em 100%;
 }

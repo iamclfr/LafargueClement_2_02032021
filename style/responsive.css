@@ -63,17 +63,15 @@
 	}
 
 	.lodging-card {
-		width: 100%;
-		max-width: 100%;
+		width: 100% !important;
+		max-width: 100% !important;
 		margin: 1em 0 !important;
 		box-shadow: 0 5px 15px #00000033;
 	}
 
 	.pop-section {
 		margin-bottom: 2em !important;
-		height: 40em;
 		padding: 0 1em;
-		height: 39.33em !important;
 	}
 
 	.activity-section {
@@ -86,6 +84,7 @@
 
 	.activity-box {
 		width: 100%;
+		max-width: 100%;
 		margin: 2em 0;
 	}
 
@@ -109,26 +108,36 @@
 	}
 }
 
-@media screen and (max-width: 880px) {
-	.lodging-card {
-		margin: 0.5em;
-	}
-}
-
 @media screen and (max-width: 1500px) {
 	.lodging-section {
-		width: 100%;
-		max-width: 100%;
+		flex-direction: column-reverse;
 	}
 
 	.lodging-resum {
+		width: 100%;
 		justify-content: center;
+	}
+
+	.lodging-card {
+		max-width: 30%;
+		margin: 0.9em;
 	}
 
 	.pop-section {
 		width: 100%;
 		max-width: 100%;
+		margin-left: 0;
 		margin-bottom: 2em;
-		height: 36.33em;
+	}
+}
+
+@media screen and (max-width: 880px) {
+	.lodging-card {
+		max-width: 45%;
+	}
+
+	.activity-box {
+		max-width: calc(30% - 3em);
+		margin: 0;
 	}
 }

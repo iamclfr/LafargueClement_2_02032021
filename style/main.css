@@ -140,9 +140,9 @@ main {
 
 /* Hébergement Marseille */
 .lodging-section {
-    max-width: 68%;
-    float: left;
+    max-width: 100%;
     margin-bottom: 2em;
+    display: flex;
 }
 
 .lodging-resum {
@@ -151,6 +151,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     padding: 0 2em 0 2em;
+    width: 68%;
 }
 
 .lodging-title {
@@ -208,75 +209,74 @@ main {
 .pop-section {
     background-color: var(--inactive);
     border-radius: 20px;
-    width: 30%;
-    max-width: 38%;
+    width: 100%;
+    max-width: 32%;
     padding: 0 2em;
-    float: right;
-    height: 39.33em;
+    margin-left: 2em;
 }
 
 .pop-card {
-    display: flex;
-    height: 100%;
-    padding: 0.5em;
-    background-color: #fff;
-    border-radius: 20px;
-    margin: 2em 0;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
+display: flex;
+height: 100%;
+padding: 0.5em;
+background-color: #fff;
+border-radius: 20px;
+margin: 2em 0;
+cursor: pointer;
+transition: all 0.2s ease-in-out;
 }
 
 .pop-card:hover {
-    transform: scale(1.03);
-    box-shadow: 0 5px 15px #00000033;
+transform: scale(1.03);
+box-shadow: 0 5px 15px #00000033;
 }
 
 .pop-title {
-    justify-content: space-between;
-    display: flex;
+justify-content: space-between;
+display: flex;
 }
 
 .pop-title i {
-    cursor: pointer;
-    transition: color 0.2s ease-in-out;
+cursor: pointer;
+transition: color 0.2s ease-in-out;
 }
 
 .pop-title i:hover {
-    color: var(--primary);
+color: var(--primary);
 }
 
 .pop-img {
-    min-height: 100%;
-    position: relative;
-    width: 33%;
-    min-width: 33%;
-    max-width: 33%;
+min-height: 100%;
+position: relative;
+width: 33%;
+min-width: 33%;
+max-width: 33%;
 }
 
 .pop-card-img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 20px 0 0 20px;
+position: absolute;
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 20px 0 0 20px;
 }
 
 .pop-text {
-    display: flex;
-    flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 .pop-card-title {
-    margin: 0 0 0.2em 0.5em;
+margin: 0 0 0.2em 0.5em;
 }
 
 .pop-card-desc {
-    margin: 0 0 0.2em 0.5em;
+margin: 0 0 0.2em 0.5em;
 }
 
 .pop-card-rate {
-    margin: 3em 0 0.2em 0.5em;
-    color: var(--inactive);
+margin: 3em 0 0.2em 0.5em;
+color: var(--inactive);
 }
 
 .pop-card-rate[data-note="1"] i:nth-child(1),
@@ -288,7 +288,6 @@ main {
 /* Section Activity */
 
 .activity-section {
-    clear: both;
     margin-bottom: 2em;
 }
 
@@ -296,7 +295,9 @@ main {
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    width: 20%;
+    width: 100%;
+    max-width: calc(30% - 6em);
+    margin-right: 2em;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 5px 15px #00000033;
