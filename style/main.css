@@ -162,6 +162,7 @@ main {
 
 .lodging-card {
     background-color: #fff;
+    width: 100%;
     max-width: 29%;
     padding: 0.5em;
     border-radius: 20px;
