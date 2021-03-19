@@ -22,7 +22,7 @@
 
 ### VERSION MOBILE :
   <p align="center">
-    <img src="img/readme/reservia_mobile.jpg" style="max-width: 50% !important;" alt="Version Desktop">
+    <img src="img/readme/reservia_mobile.jpg" width="450px" height="auto" alt="Version Desktop">
   </p>
 
 
