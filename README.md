@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/iamclfr/LafargueClement_2_02032021">
-    <img src="img/logos/logo.svg" alt="Logo" width="80" height="80">
+    <img src="img/logos/logo.svg" alt="Logo" width="300" height="auto">
   </a>
 
   <h3 align="center">RÉSERVIA</h3>
