@@ -198,7 +198,7 @@ main {
 .lodging-card-rate {
     padding: 0;
     margin: 0.4em 0 0 0.5em;
-    color: var(--inactive);
+    color: #b9b9b9;
 }
 
 .lodging-card-rate[data-note="1"] i:nth-child(1),
@@ -279,7 +279,7 @@ margin: 0 0 0.2em 0.5em;
 
 .pop-card-rate {
 margin: 3em 0 0.2em 0.5em;
-color: var(--inactive);
+color: #b9b9b9;
 }
 
 .pop-card-rate[data-note="1"] i:nth-child(1),
