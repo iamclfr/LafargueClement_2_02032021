@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^301dev\.com\,301devcom_irrx2466\.odns\.fr$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.301dev\.com\,301devcom_irrx2466\.odns\.fr$
+RewriteRule ^/?$ "https\:\/\/301dev\.com\/" [R=301,L]
